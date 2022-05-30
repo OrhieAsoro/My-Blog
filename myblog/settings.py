@@ -44,7 +44,7 @@ if environment == 'development':
 
 elif environment == "production":
 
-    DEBUG = True
+    DEBUG = False
     ALLOWED_HOSTS = ['orhie-blog.herokuapp.com']
     DATABASES = {}
     DATABASES['default'] = dj_database_url.config()
